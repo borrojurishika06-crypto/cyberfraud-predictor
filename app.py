@@ -8,8 +8,8 @@ Cybercrime Cash-Out Early Warning System
 Streamlit dashboard for cybercrime investigation officers.
 
 Input files:
-    data/active_cases_scored.csv
-    data/predicted_locations.csv
+    active_cases_scored.csv
+    predicted_locations.csv
 
 Requirements:
     pip install streamlit pandas folium streamlit-folium
@@ -41,8 +41,8 @@ st.set_page_config(
 # CONSTANTS
 # ============================================================================
 
-ACTIVE_FILE = "data/active_cases_scored.csv"
-LOCATIONS_FILE = "data/predicted_locations.csv"
+ACTIVE_FILE = "active_cases_scored.csv"
+LOCATIONS_FILE = "predicted_locations.csv"
 
 
 # ============================================================================
