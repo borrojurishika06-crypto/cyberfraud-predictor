@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+networkx
+scikit-learn
+xgboost
+shap
+folium
+streamlit-folium
+faker
